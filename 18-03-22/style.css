@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #6b5b95;
+    padding: 30px;                  
+}
+
+header {
+    background: antiquewhite;
+    width: 100%;
+    padding: 4px;
+}
+
+header #header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background: #958cb4;
+    color: antiquewhite;
+    text-shadow: 2px 2px #6b5b95;    
+}
+.addNew {
+    display: flex;
+    margin: 20px 0;
+}
+
+.listBox {
+    margin: 0 20px;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    margin-right: 70px;
+}
+
+#search label {
+    font-size: 20px;
+}
+
+#typeSearch {
+    margin-left: 10px;
+}
+
+#addPeople {
+    background: whitesmoke;
+    box-shadow: 1px 1px;
+    padding: 7px 10px;
+    margin-left:  68px;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: inline-block;
+    background: #ff6666;
+    border-radius: 20px;
+    margin: 20px 10px;
+    padding: 40px 20px;
+    width: 30%;    
+    text-align: center;
+    font-size: large;
+}
