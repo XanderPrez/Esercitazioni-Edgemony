@@ -1,0 +1,33 @@
+.postersWrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 350px;
+    border: 4px groove grey;
+    overflow-y: auto;
+}
+
+div > img {
+    width: 100px;
+}
+
+.delete {
+    width: 20px;
+}
+
+.delete:hover {
+    cursor: pointer;
+}
+

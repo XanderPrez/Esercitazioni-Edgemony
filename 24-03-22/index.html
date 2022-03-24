@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Posters</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Inserisci la tua locandina!</h2>
+    <form>
+        <label for="title"></label>
+        <input type="text" id="title" name="title" placeholder="Titolo">
+
+        <label for="poster"></label>
+        <input type="text" id="poster" name="poster" placeholder="URL">
+
+        <label for="description"></label>
+        <input type="text" id="description" name="description" placeholder="Descrizione">
+
+        <label for="year"></label>
+        <input type="text" id="year" name="year" placeholder="Anno">
+
+
+        <input type="submit" id="submit">
+    </form>
+    
+    <div class="postersWrapper"></div>
+
+    <script src="./script.js" type="module"></script>
+    <script src="./utilities.js" type="module"></script>
+</body>
+</html>
